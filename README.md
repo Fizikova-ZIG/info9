@@ -1,2 +1,3 @@
 # info9
-Digikult-9o.
+Digitális kultúra-9o.
+Zrínyi Ilona Gimnázium, Miskolc
