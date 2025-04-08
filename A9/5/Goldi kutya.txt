@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<-- Második honlapom -->
+	    <article lang="">
+<sect1>
+<title>Első kutyás honlapim</title>
+<sect2>
+<title>Goldi képei</title>
+<para>
+<inlinegraphic fileref="embedded:Kép1" width="5.081cm" depth="6.774cm"/>
+</para>
+</sect2>
+</sect1>
+</article>
