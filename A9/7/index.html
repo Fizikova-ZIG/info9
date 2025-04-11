@@ -1,49 +1,39 @@
 <!DOCTYPE html>
-<!--Megjegyzés-->
-<!--Harmadik honlapom-->
-  <html lang="hu">
-      <head>
-	       <meta charset="utf-8">
-		   <title>Goldi 3 honlapja</title>
-		   <style>
-		        hl {color:red;}
-				p {color:blue; font-size:120%;}
-		    </style>
-	    </head>
-	   <body lang =HU>
-	   <img src="goldi.jpg" height="200" alt="A kutyám, aki egy gol-
-den retriever." title="Goldi, a kutyám (felnőttkorában)">
-        <meta charset="utf-8">
-        <h1 align="center">Harmadik kutyás honlapom</h1>
-			<p align="center">Ez egy bekezdés, <br> amiben sortörést, és középre igazítást alkalmaztunk.
-			<img src="goldi.jpg" alt="A kutyám, aki egy Golden Retriver.">
-	</body>
-</html>
-A Golden Retriever bemutatása
-Kezdőlap Típusok
-
-<p class="fontos">
-  A Golden Retriever egy kedves, barátságos kutyafajta, mely Skóciából származik.
-  <br>
-  A fajta tudományos megnevezése: Golden Retriever – <i>Canis lupus familiaris</i>.
-</p>
-
-<p><strong>Fontos!</strong> Ha gazdi szeretnél lenni, nézz utána,
-hogy a <em>felelős</em> kutyatartással kapcsolatban milyen ajánlások
-és kötelezettségek vannak!</p>
-Előnyös tulajdonságai
-<ul>
-<li>Okos, könnyen képezhető</li>
-<li>Szelíd, családbarát</li>
-<li>Nagyon jó vadászkutya</li>
-</ul>
-<img src="kepek/kolyok.jpg" height="200" alt="A kutyám kölyökkorá-
-ban." title="Goldi, a kutyám (kölyökkorában)">
-Goldi, a kutyám
-A kutyám, aki egy Golden retriever. A kutyám kölyök korában.
-Fotók Goldiról
-Ha szeretnél még több kutyás fotót nézegetni, látogasd meg a Pixabay portál - Goldenek fotó oldalát!
-
-A videón is láthatod, hogy Goldi nagyon szeret a földön hemperegni, amely miatt általában koszosan jövünk haza a sétából.
-
-Vissza az oldal tetejére
+<!-- Negyedik honlapom – D.A. -->
+<html lang="hu">
+<head> <!-- fejléc -->
+    <meta charset="utf-8">
+    <title>Goldi 4 honlapja</title>
+    <link rel="stylesheet" href="goldi.css"> <!-- stílusfájl használata -->
+</head>
+<body lang="HU"> <!-- honlaptörzs -->
+    <h1>Negyedik kutyás honlapom</h1>
+    <h2 id="eleje">A Golden Retriever bemutatása</h2>
+    <p>A Golden Retriever egy kedves, barátságos kutyafajta, 
+    <br> mely Skóciából származik.
+    </p>
+    <h2>A fajta tudományos megnevezése:</h2>
+    <p>Golden Retriever – <i>Canis lupus familiaris.</i></p>
+    <p><b>Fontos!</b> Ha gazdi szeretnél lenni, nézd utána, 
+        hogy a <em>felelős</em> kutyatartással kapcsolatban 
+        milyen ajánlások és kötelezettségek vannak!</p>
+    <h2>Előnyös tulajdonságai</h2>
+    <ul>
+        <li>Okos, könnyen képezhető</li>
+        <li>Szelíd, családbarát</li>
+        <li>Nagyon jó vadászkutya</li>
+    </ul>
+    <h2>Fotók Goldiról</h2>
+    <figure> <!-- A kép középre helyezése "dobozban" -->
+       <img src="goldi.jpg" alt="A kutyám egy Golden Retriever.">
+       <figcaption>Goldi, a kutyám (felnőtt korában)</figcaption>
+    </figure>
+	<figure>
+	   <img src="kolyok.jpg" alt="A kutyám kölyök korában.">
+       <figcaption>A kiskutyám (kölyök korában)</figcaption>
+    </figure>
+    <p>Ha szeretnél még több kutyás fotót nézegetni, látogasd meg a Pixabay portál 
+    – Goldenek fotó oldalát!</p>
+    <video controls width="400">
+       <source src="goldiseta.mp4" type="video/mp4">
+    </video>
