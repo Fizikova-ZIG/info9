@@ -52,7 +52,7 @@ body {
  
 /* felsoroláslisták megjelenésének beállítása */
 ul {
-	background-color:Yellow;	/* türkíz háttérszín*/
+	background-color:Red;	/* türkíz háttérszín*/
 	margin:0;				/* margó lenullázása */ 
 	padding:30px;			/* belső kitöltés */
 }
@@ -104,7 +104,7 @@ figure {
 	margin-left:auto;			/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
 	margin-right:auto;
 	margin-bottom:30px;			/* alsó margó beállítása */
-	background-color:darkred;	/* sötétvörös háttérszín beállítása*/
+	background-color:Teal;	/* sötétvörös háttérszín beállítása*/
 	transform:rotate(-2deg);	/* elforgatás 2 fokkal*/
 	border-radius:30px;			/* szegély lekerekítése*/
 	}
@@ -151,7 +151,7 @@ td,th {
 
 /* Fejléc cella beállítása */
 th {
-	background-color:darkred;   /* sötétvörös háttér*/
+	background-color:Navy;   /* sötétvörös háttér*/
 	color:white;				/* fehér szövegszín */
 }
 
