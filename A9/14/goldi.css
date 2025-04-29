@@ -60,7 +60,7 @@ ul {
 /* listaelemek megjelenésének beállítása */
 li {
 	list-style-image:url('../kepek/mancs.png');		/* egyedi felsorolásjel beállítása */
-	color:white;		/* fehér szövegszín */
+	color:Black;		/* fehér szövegszín */
 	margin-left:40px;	/* bal margó */
 	line-height:40px;	/* sor magasságának beállítása */
 	}
@@ -68,7 +68,7 @@ li {
 /* 1-es címsorok megjelenésének beállítása */
 h1 {
 	color:Violet;						/* fehér szövegszín */
-	border-bottom:10px solid Pink;	/*vastag, sötétpiros alsó szegély*/
+	border-bottom:10px solid violet;	/*vastag, sötétpiros alsó szegély*/
 	background-color:Purple;				/* fekete háttérszín*/
 	padding:10px;						/* belső kitöltés */
 	margin:0;							/* margó lenullázása */ 
@@ -88,7 +88,7 @@ a {font-style:italic;}  	/* dőlt betűs megjelenés*/
 /*A képfeliratok megjelenésének beállítása */
 figcaption {
 	text-align:center;		/* szöveg középre igazítása*/
-	color:Silver;			/* ezüst szövegszín*/
+	color:Black;			/* ezüst szövegszín*/
 	font-weight:bold;		/* félkövér megjelenés*/
 	}
 	
@@ -104,7 +104,7 @@ figure {
 	margin-left:auto;			/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
 	margin-right:auto;
 	margin-bottom:30px;			/* alsó margó beállítása */
-	background-color:Pink;	/* sötétvörös háttérszín beállítása*/
+	background-color:pink;	/* sötétvörös háttérszín beállítása*/
 	transform:rotate(-2deg);	/* elforgatás 2 fokkal*/
 	border-radius:30px;			/* szegély lekerekítése*/
 	}
@@ -113,7 +113,7 @@ figure {
 img {
 	width:45%; 					/* szélesség beállítása */
 	height:auto;				/* magasság beállítása */
-	border:4px solid white;		/* szegély legyen vastagabb, fehér*/
+	border:10px solid violet;		/* szegély legyen vastagabb, fehér*/
 	border-radius:60px;			/* szegély lekerekítése*/
 	margin-right:10px;			/*jobb margó	*/
 			}	
@@ -151,7 +151,7 @@ td,th {
 
 /* Fejléc cella beállítása */
 th {
-	background-color:Pink;   /* sötétvörös háttér*/
+	background-color:pink;   /* sötétvörös háttér*/
 	color:Black;				/* fehér szövegszín */
 }
 
